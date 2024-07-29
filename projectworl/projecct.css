@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.image {
+    width: 100%;
+}
+.sid{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 20px 0px 20px;
+    
+    font-size: 17px;
+    color: #1C1C1C;
+    font-family:sans-serif;
+}
+
+.top{
+    font-size: 12px;
+    color: #1C1C1CA6;
+    font-family:sans-serif;
+}
+.all{
+    /* padding:100px 50px 0px 50px; */
+    margin:50px;
+    gap: px;
+}
+.boxes{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3px;
+}
+.new {
+    position: relative;
+}
+.newest{
+    position: relative;
+}
+.box{
+    width: 100%;
+    background-color: #F5F2EC;
+    padding-bottom: 30px;
+    height: 
+}
+.new button{
+    width: 40px;
+    height: 30px;
+    border: none;
+    background: #BDAD9240;
+    color: #1F1511;
+    border-radius: 3px;
+    position: absolute;
+    left: 10px;
+    font-size: 10px;
+    
+    top: 15px;
+    font-family: sans-serif;
+}
+.newest button{
+    width: 80px;
+    height: 30px;
+    border: none;
+    background: #BDAD9240;
+    color: #1F1511;
+    border-radius: 3px;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.hov{
+    display: none;
+    width: 310px;
+    /* height:300px; */
+    position: absolute;
+}
+.box:hover .hov{
+    display: block;
+}
+.tayo{
+    font-family:sans-serif;
+    font-size: 12px;
+    color: #1C1C1CA6; 
+    padding-top: 15px; 
+    margin-left: 93px; 
+   /* padding: 15px 25px 15px 5px; */
+
+}
+/* .lal{
+   margin-top: 10px;
+} */

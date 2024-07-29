@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box img{
+    width: 100%;
+ }
+.image img{
+    width: 300px;
+    /* height: 400px; */
+    
+} 
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+.boxes{
+    background-color: #f7f3ed;
+    gap: 5px;
+}
+.hover{
+    display: none;
+   
+}
+.boxes:hover .hover{
+    display: block;
+    position: absolute;
+}
